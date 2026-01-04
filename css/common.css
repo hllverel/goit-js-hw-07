@@ -245,8 +245,16 @@ h1 {
   background: #4e75ff;
 }
 
+#controls button[data-create]:hover {
+  background: #6c8cff;
+}
+
 #controls button[data-destroy] {
   background: #ff4e4e;
+}
+
+#controls button[data-destroy]:hover {
+  background: #ff7070;
 }
 
 #boxes {
