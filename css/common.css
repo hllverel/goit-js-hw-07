@@ -252,8 +252,9 @@ h1 {
 #boxes {
   border-radius: 8px;
   padding: 32px;
-  min-width: 486px;
-  min-height: 134px;
-  margin: auto;
   background: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  justify-content: center;
 }

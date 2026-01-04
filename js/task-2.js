@@ -1,10 +1,5 @@
 'use strict';
 
-//images dizisi kullanılarak <li> içine gömülü <img> öğeleri oluşturmak için kullan.
-//document.createElement() ve elem.append() veya template strings ve elem.insertAdjacentHTML() kullanarak HTML öğeleri oluşturup ekleyebilirsin.
-//Galeri öğeleri bir ekleme işlemi ile DOM'a eklenmelidir.
-//CSS sınıfları aracılığıyla galeri için minimum düzenlemeyi esnek kutular kullanarak ekle.
-
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
