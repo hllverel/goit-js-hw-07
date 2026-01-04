@@ -26,6 +26,8 @@ function createBoxes(amount) {
 
             size += 10;
         }
+    } else {
+        alert("Please enter a number between 1 and 100!")
     };
 
     input.value = '';
@@ -63,6 +65,8 @@ createButton.addEventListener("click", () => {
 
             size += 10;
         }
+    } else {
+        alert("Please enter a number between 1 and 100!")
     };
 
     input.value = '';
