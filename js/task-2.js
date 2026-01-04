@@ -41,7 +41,6 @@ images.forEach(image => {
   listItem.append(img);
   img.src = image.url;
   img.alt = image.alt;
-  img.width = "300";
 });
 
 
