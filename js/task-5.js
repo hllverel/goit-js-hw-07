@@ -12,5 +12,12 @@ function getRandomHexColor() {
 //    button.change-color öğesine her tıklamada <body> arka planı yeni rastgele bir renge boyanacaktır.
 //    <body> ve span.color üzerinde aynı renk değerleri olacaktır.
 
+const bgChangeButton = document.querySelector('.change-color');
+const bgColorText = document.querySelector('.color');
+const body = document.querySelector('body');
 
+bgChangeButton.addEventListener("click", () => {
+  body.style.backgroundColor = getRandomHexColor();
+  bgColorText.textContent = getRandomHexColor();
+});
 
